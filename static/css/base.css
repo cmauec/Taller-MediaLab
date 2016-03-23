@@ -1,0 +1,25 @@
+html,body{
+	height: 100%;
+}
+header{
+	background: teal;
+	height: 10%;
+	padding:10px 20px;
+	box-sizing:border-box;
+}
+header img{
+	height: 100%;
+}
+.content{
+	height: 80%;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+form{
+	margin-left: 30px;
+}
+footer{
+	height: 10%;
+	text-align: center;
+}

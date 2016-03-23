@@ -1,0 +1,9 @@
+{%extends 'view/base.html'%}
+{%block content%}
+<p>{{mensaje}}</p>
+<form action="/" method='post'>
+	<p><input type="text" name="nombre" placeholder="Nombre"></p>
+	<p><textarea name="saludo" cols="30" rows="10" placeholder="Saludo"></textarea></p>
+	<p><input type="submit" value="Enviar"></p>
+</form>
+{%endblock%}
